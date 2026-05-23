@@ -211,24 +211,24 @@ export const dictionaries = {
           description:
             "A multilingual landing page for a fishing tackle shop with catalog, responsive design, and fast CTAs.",
           tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-          repo: "https://github.com/zagordenis1/Sitefishing",
-          demo: "https://zagordenis1.github.io/Sitefishing/"
+          repo: "test",
+          demo: "test"
         },
         {
           title: "Portfolio Platform",
           description:
             "A static portfolio website with localization, themes, SEO, and structured data for search engines.",
           tech: ["React", "Next.js", "i18n", "SEO"],
-          repo: "https://github.com/zagordenis1/mysiteportfolio2",
-          demo: "https://zagordenis1.github.io/mysiteportfolio2/"
+          repo: "test",
+          demo: "test"
         },
         {
           title: "Study Lab",
           description:
             "A learning space for practicing algorithms, OOP, Java/C# tasks, and small web experiments.",
           tech: ["Java", "C#", "Algorithms", "OOP"],
-          repo: "https://github.com/zagordenis1",
-          demo: null
+          repo: "test",
+          demo: "test"
         }
       ]
     },

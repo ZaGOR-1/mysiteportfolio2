@@ -1,7 +1,7 @@
 export const socialLinks = {
   email: "mailto:denys.zahorovskyi@example.com",
-  telegram: "https://t.me/zagordenis1",
-  github: "https://github.com/zagordenis1"
+  telegram: "https://t.me/Denis_Zagor",
+  github: "https://github.com/ZaGOR-1"
 };
 
 export const projectAccents = [
