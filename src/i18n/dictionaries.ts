@@ -17,7 +17,8 @@ export const dictionaries = {
     nav: {
       about: "Про мене",
       skills: "Навички",
-      lab: "Code Lab",
+      lab: "JS Lab",
+      pythonLab: "Python Lab",
       projects: "Портфоліо",
       contacts: "Контакти"
     },
@@ -87,16 +88,16 @@ export const dictionaries = {
 
     codeLab: {
       kicker: "Інтерактив",
-      title: "Міні Code Lab прямо на сайті",
+      title: "Міні JS Lab прямо на сайті",
       subtitle:
         "Можна редагувати код, видаляти рядки, запускати JavaScript у безпечному браузерному sandbox і бачити результат у терміналі. Це додає портфоліо відчуття живого dev-продукту.",
       features: [
         { title: "Edit", text: "Змінюй код як у маленькому редакторі." },
-        { title: "Compile", text: "Запускай приклад і дивись output." },
+        { title: "Run JS", text: "Запускай JavaScript і дивись output." },
         { title: "Fix", text: "Натисни auto-fix, щоб виправити баг." }
       ],
       editorLabel: "Редактор коду",
-      run: "Compile / Run",
+      run: "Run JavaScript",
       autoFix: "Auto-fix bug",
       deleteLine: "Delete line",
       reset: "Reset",
@@ -106,7 +107,7 @@ export const dictionaries = {
       chars: "символів",
       compiling: "Compiling and running code...",
       noOutput: "Code executed without console output.",
-      outputPlaceholder: "Натисни Compile / Run, щоб перевірити код.",
+      outputPlaceholder: "Натисни Run JavaScript, щоб перевірити код.",
       errorPrefix: "Error:",
       unknownError: "Unknown error",
       fixApplied: "Auto-fix applied: status 'done' → 'completed'. Run the code again.",
@@ -116,6 +117,47 @@ export const dictionaries = {
         "У прикладі навмисно є логічна помилка: фільтр шукає status 'done', хоча дані використовують 'completed'. Спробуй запустити, виправити вручну або натиснути Auto-fix bug.",
       statuses: {
         ready: "Ready",
+        running: "Running",
+        success: "Success",
+        error: "Error"
+      }
+    },
+    pythonLab: {
+      kicker: "Python у браузері",
+      title: "Python Lab на Pyodide",
+      subtitle:
+        "Окремий інтерактивний playground, де можна писати й запускати Python-код прямо на сайті. Runtime завантажується в браузер через Pyodide і працює у Web Worker, тому це не просто красива заглушка.",
+      features: [
+        { title: "Python", text: "Пиши справжній Python 3 без backend-сервера." },
+        { title: "Pyodide", text: "Runtime вантажиться в браузері при першому запуску." },
+        { title: "Examples", text: "Перемикай готові приклади: дані, алгоритм, ООП." }
+      ],
+      editorLabel: "Python-редактор",
+      run: "Run Python",
+      reset: "Reset code",
+      clear: "Clear terminal",
+      terminal: "Python output",
+      runtime: "Pyodide Web Worker",
+      examplesLabel: "Приклади",
+      lines: "рядків",
+      chars: "символів",
+      loadingRuntime: "Loading Pyodide Python runtime... First run can take a few seconds.",
+      running: "Running Python...",
+      noOutput: "Python code executed without print output.",
+      outputPlaceholder: "Натисни Run Python, щоб виконати код.",
+      exampleLoaded: "Example loaded: {name}. You can edit it and run again.",
+      errorPrefix: "Python error:",
+      unknownError: "Unknown Python error",
+      timeout: "Execution timeout: Python code took too long. Possible infinite loop.",
+      notesTitle: "Як це працює",
+      notes: [
+        "Код реально виконується в браузері через Pyodide, без окремого backend.",
+        "Перший запуск може бути повільнішим, бо завантажується Python runtime з CDN.",
+        "Підходить для невеликих скриптів, алгоритмів, списків, словників, класів і print-output."
+      ],
+      statuses: {
+        idle: "Ready",
+        loading: "Loading runtime",
         running: "Running",
         success: "Success",
         error: "Error"
@@ -174,7 +216,8 @@ export const dictionaries = {
     nav: {
       about: "About",
       skills: "Skills",
-      lab: "Code Lab",
+      lab: "JS Lab",
+      pythonLab: "Python Lab",
       projects: "Portfolio",
       contacts: "Contacts"
     },
@@ -244,16 +287,16 @@ export const dictionaries = {
 
     codeLab: {
       kicker: "Interactive",
-      title: "Mini Code Lab inside the portfolio",
+      title: "Mini JS Lab inside the portfolio",
       subtitle:
         "Visitors can edit code, delete lines, run JavaScript in a safe browser sandbox, and see the result in a terminal. It makes the portfolio feel like a real developer product.",
       features: [
         { title: "Edit", text: "Change code in a tiny editor." },
-        { title: "Compile", text: "Run the snippet and inspect output." },
+        { title: "Run JS", text: "Run JavaScript and inspect output." },
         { title: "Fix", text: "Press auto-fix to repair the bug." }
       ],
       editorLabel: "Code editor",
-      run: "Compile / Run",
+      run: "Run JavaScript",
       autoFix: "Auto-fix bug",
       deleteLine: "Delete line",
       reset: "Reset",
@@ -263,7 +306,7 @@ export const dictionaries = {
       chars: "chars",
       compiling: "Compiling and running code...",
       noOutput: "Code executed without console output.",
-      outputPlaceholder: "Press Compile / Run to test the code.",
+      outputPlaceholder: "Press Run JavaScript to test the code.",
       errorPrefix: "Error:",
       unknownError: "Unknown error",
       fixApplied: "Auto-fix applied: status 'done' → 'completed'. Run the code again.",
@@ -273,6 +316,47 @@ export const dictionaries = {
         "The example has an intentional logic bug: the filter checks status 'done', while the data uses 'completed'. Run it, fix it manually, or press Auto-fix bug.",
       statuses: {
         ready: "Ready",
+        running: "Running",
+        success: "Success",
+        error: "Error"
+      }
+    },
+    pythonLab: {
+      kicker: "Python in browser",
+      title: "Python Lab powered by Pyodide",
+      subtitle:
+        "A separate interactive playground where visitors can write and run Python code directly on the website. The runtime loads in the browser through Pyodide and runs inside a Web Worker, so it is not just a visual mockup.",
+      features: [
+        { title: "Python", text: "Write real Python 3 without a backend server." },
+        { title: "Pyodide", text: "The runtime loads in the browser on first run." },
+        { title: "Examples", text: "Switch between data, algorithm, and OOP snippets." }
+      ],
+      editorLabel: "Python editor",
+      run: "Run Python",
+      reset: "Reset code",
+      clear: "Clear terminal",
+      terminal: "Python output",
+      runtime: "Pyodide Web Worker",
+      examplesLabel: "Examples",
+      lines: "lines",
+      chars: "chars",
+      loadingRuntime: "Loading Pyodide Python runtime... First run can take a few seconds.",
+      running: "Running Python...",
+      noOutput: "Python code executed without print output.",
+      outputPlaceholder: "Press Run Python to execute the code.",
+      exampleLoaded: "Example loaded: {name}. You can edit it and run again.",
+      errorPrefix: "Python error:",
+      unknownError: "Unknown Python error",
+      timeout: "Execution timeout: Python code took too long. Possible infinite loop.",
+      notesTitle: "How it works",
+      notes: [
+        "The code really runs in the browser through Pyodide, without a separate backend.",
+        "The first run can be slower because the Python runtime is loaded from a CDN.",
+        "It is useful for small scripts, algorithms, lists, dictionaries, classes, and print output."
+      ],
+      statuses: {
+        idle: "Ready",
+        loading: "Loading runtime",
         running: "Running",
         success: "Success",
         error: "Error"

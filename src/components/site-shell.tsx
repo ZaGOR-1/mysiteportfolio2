@@ -7,6 +7,7 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { ProjectsSection } from "@/components/projects-section";
+import { PythonLabSection } from "@/components/python-lab-section";
 import { SkillsSection } from "@/components/skills-section";
 
 export function SiteShell() {
@@ -18,6 +19,7 @@ export function SiteShell() {
       <AboutSection />
       <SkillsSection />
       <CodeLabSection />
+      <PythonLabSection />
       <ProjectsSection />
       <ContactSection />
       <Footer />
