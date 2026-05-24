@@ -1,5 +1,5 @@
 export const socialLinks = {
-  email: "mailto:denys.zahorovskyi@example.com",
+  email: "mailto:ran31276@gmail.com",
   telegram: "https://t.me/Denis_Zagor",
   github: "https://github.com/ZaGOR-1"
 };

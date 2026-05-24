@@ -118,9 +118,9 @@ export const dictionaries = {
       title: "Відкритий до навчальних, командних і pet-проєктів.",
       subtitle:
         "Напишіть, якщо потрібен відповідальний junior developer для вебінтерфейсу, навчального проєкту або прототипу.",
-      email: "denys.zahorovskyi@example.com",
-      telegram: "@zagordenis1",
-      github: "zagordenis1"
+      email: "ran31276@gmail.com",
+      telegram: "@Denis_Zagor",
+      github: "ZaGOR-1"
     },
     footer: {
       made: "Спроєктовано та зібрано з Next.js, Tailwind CSS і Framer Motion.",
@@ -237,9 +237,9 @@ export const dictionaries = {
       title: "Open to study, team, and pet projects.",
       subtitle:
         "Message me if you need a responsible junior developer for a web interface, student project, or prototype.",
-      email: "denys.zahorovskyi@example.com",
-      telegram: "@zagordenis1",
-      github: "zagordenis1"
+      email: "ran31276@gmail.com",
+      telegram: "@Denis_Zagor",
+      github: "ZaGOR-1"
     },
     footer: {
       made: "Designed and built with Next.js, Tailwind CSS, and Framer Motion.",
