@@ -50,6 +50,8 @@ export function ProjectsSection() {
                 {project.demo ? (
                   <a
                     href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-ink px-4 py-2 text-xs font-bold text-canvas transition hover:-translate-y-0.5"
                   >
                     <ExternalLink className="h-3.5 w-3.5" />
@@ -58,6 +60,8 @@ export function ProjectsSection() {
                 ) : null}
                 <a
                   href={project.repo}
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-line px-4 py-2 text-xs font-bold text-muted transition hover:-translate-y-0.5 hover:text-ink"
                 >
                   <Github className="h-3.5 w-3.5" />

@@ -1,7 +1,17 @@
+export const siteConfig = {
+  name: "Denys Zahorovskyi",
+  fullNameUk: "Денис Загоровський",
+  baseUrl: "https://zagor-1.github.io/mysiteportfolio2/",
+  githubProfile: "https://github.com/ZaGOR-1",
+  emailAddress: "ran31276@gmail.com",
+  telegramHandle: "@Denis_Zagor",
+  telegramUrl: "https://t.me/Denis_Zagor"
+} as const;
+
 export const socialLinks = {
-  email: "mailto:ran31276@gmail.com",
-  telegram: "https://t.me/Denis_Zagor",
-  github: "https://github.com/ZaGOR-1"
+  email: `mailto:${siteConfig.emailAddress}`,
+  telegram: siteConfig.telegramUrl,
+  github: siteConfig.githubProfile
 };
 
 export const projectAccents = [

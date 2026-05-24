@@ -1,18 +1,19 @@
 import { SiteShell } from "@/components/site-shell";
+import { siteConfig } from "@/data/site";
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Денис Загоровський",
-  alternateName: "Denys Zahorovskyi",
+  name: siteConfig.fullNameUk,
+  alternateName: siteConfig.name,
   jobTitle: "Student Software Engineer",
   affiliation: {
     "@type": "CollegeOrUniversity",
     name: "Житомирська політехніка"
   },
-  email: "mailto:denys.zahorovskyi@example.com",
-  url: "https://zagordenis1.github.io/mysiteportfolio2/",
-  sameAs: ["https://github.com/zagordenis1"]
+  email: `mailto:${siteConfig.emailAddress}`,
+  url: siteConfig.baseUrl,
+  sameAs: [siteConfig.githubProfile, siteConfig.telegramUrl]
 };
 
 export default function Home() {

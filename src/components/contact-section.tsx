@@ -35,6 +35,8 @@ export function ContactSection() {
                 <a
                   key={label}
                   href={href}
+                  target={href.startsWith("http") ? "_blank" : undefined}
+                  rel={href.startsWith("http") ? "noreferrer" : undefined}
                   className="group flex items-center gap-4 rounded-3xl border border-white/10 bg-white/10 p-4 backdrop-blur-xl transition hover:-translate-y-1 hover:bg-white/15"
                 >
                   <span className="grid h-11 w-11 place-items-center rounded-2xl bg-white text-slate-950">

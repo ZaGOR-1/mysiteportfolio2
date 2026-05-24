@@ -2,6 +2,8 @@
 
 Modern bilingual portfolio website for **Denys Zahorovskyi**, a 2nd-year Software Engineering student at Zhytomyr Polytechnic.
 
+Live site: `https://zagor-1.github.io/mysiteportfolio2/`
+
 ## Stack
 
 - Next.js 14 App Router with static export
@@ -14,12 +16,13 @@ Modern bilingual portfolio website for **Denys Zahorovskyi**, a 2nd-year Softwar
 
 ## Features
 
-- Responsive senior-level landing portfolio design
+- Responsive polished landing portfolio design
 - Ukrainian and English language switcher
 - Dark/light theme switcher
 - Hero, About, Skills, Portfolio, and Contacts sections
 - Scroll reveal animations and polished hover states
-- SEO metadata, Open Graph, sitemap, robots, and JSON-LD
+- SEO metadata, Open Graph, sitemap, robots.txt, and JSON-LD
+- Centralized site links in `src/data/site.ts`
 - Easy project updates through `src/i18n/dictionaries.ts`
 
 ## Run locally
@@ -58,7 +61,18 @@ npm run typecheck
 GITHUB_PAGES=true npm run build
 ```
 
-`GITHUB_PAGES=true` enables the repository base path in `next.config.mjs`, so the site works at `https://zagordenis1.github.io/mysiteportfolio2/`.
+`GITHUB_PAGES=true` enables the repository base path in `next.config.mjs`, so the site works at `https://zagor-1.github.io/mysiteportfolio2/`.
+
+## Update contacts and links
+
+Main public links are stored in `src/data/site.ts`:
+
+- portfolio URL
+- GitHub profile
+- email
+- Telegram
+
+Update this file first when changing accounts or domains.
 
 ## Add a new project
 

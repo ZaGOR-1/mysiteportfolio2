@@ -85,11 +85,11 @@ export function Hero() {
             </div>
 
             <div className="mt-5 grid gap-3 sm:grid-cols-3">
-              <a href={socialLinks.github} className="rounded-3xl border border-line/70 bg-panel/70 p-4 transition hover:-translate-y-1 hover:border-brand-400">
+              <a href={socialLinks.github} target="_blank" rel="noreferrer" className="rounded-3xl border border-line/70 bg-panel/70 p-4 transition hover:-translate-y-1 hover:border-brand-400">
                 <Github className="h-5 w-5" />
                 <span className="mt-3 block text-sm font-bold">{t.actions.github}</span>
               </a>
-              <a href={socialLinks.telegram} className="rounded-3xl border border-line/70 bg-panel/70 p-4 transition hover:-translate-y-1 hover:border-brand-400">
+              <a href={socialLinks.telegram} target="_blank" rel="noreferrer" className="rounded-3xl border border-line/70 bg-panel/70 p-4 transition hover:-translate-y-1 hover:border-brand-400">
                 <Send className="h-5 w-5" />
                 <span className="mt-3 block text-sm font-bold">{t.actions.telegram}</span>
               </a>

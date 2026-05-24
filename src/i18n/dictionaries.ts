@@ -1,3 +1,5 @@
+import { siteConfig } from "@/data/site";
+
 export type Locale = "uk" | "en";
 
 export const locales: Locale[] = ["uk", "en"];
@@ -43,7 +45,7 @@ export const dictionaries = {
       codeCard: {
         label: "current_focus.ts",
         lines: [
-          "const focus = ['React', 'TypeScript', 'C#', 'Java'];",
+          "const focus = ['React', 'TypeScript', 'PHP', 'C#'];",
           "const goal = 'build useful, polished products';",
           "export const mindset = 'learn fast, ship clean';"
         ]
@@ -73,42 +75,42 @@ export const dictionaries = {
         },
         {
           title: "Backend & Core",
-          items: ["C#", "Java", "Node.js", "REST API", "SQL"]
+          items: ["PHP", "C#", "ASP.NET Core", "MySQL", "REST API"]
         },
         {
           title: "Tools",
-          items: ["Git", "GitHub", "VS Code", "Figma", "CI/CD"]
+          items: ["Git", "GitHub", "Docker", "VS Code", "CI/CD"]
         }
       ]
     },
     projects: {
       kicker: "Портфоліо",
-      title: "Проєкти, які легко розширювати",
+      title: "Обрані практичні проєкти",
       subtitle:
-        "Усі проєкти зберігаються в одному data-файлі, тому нові кейси можна додавати без зміни компонентів.",
+        "Кілька робіт, які показують frontend, структуру коду, деплой через GitHub Pages і практику автоматизації.",
       items: [
         {
-          title: "Fishing Shop",
+          title: "Sitefishing",
           description:
-            "Багатомовний landing page для магазину рибальських товарів із каталогом, адаптивним дизайном і швидкими CTA.",
+            "Адаптивний landing page для магазину рибальських товарів із каталогом, перемиканням мови, фільтрами та швидкими CTA.",
           tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-          repo: "https://github.com/zagordenis1/Sitefishing",
-          demo: "https://zagordenis1.github.io/Sitefishing/"
+          repo: "https://github.com/ZaGOR-1/Sitefishing",
+          demo: "https://zagor-1.github.io/Sitefishing/"
         },
         {
-          title: "Portfolio Platform",
+          title: "Portfolio Website",
           description:
-            "Статичний сайт-портфоліо з локалізацією, темами, SEO та структурованими даними для пошукових систем.",
+            "Особистий сайт-портфоліо з локалізацією, темами, SEO, Open Graph, sitemap, robots.txt і JSON-LD.",
           tech: ["React", "Next.js", "i18n", "SEO"],
-          repo: "https://github.com/zagordenis1/mysiteportfolio2",
-          demo: "https://zagordenis1.github.io/mysiteportfolio2/"
+          repo: "https://github.com/ZaGOR-1/mysiteportfolio2",
+          demo: "https://zagor-1.github.io/mysiteportfolio2/"
         },
         {
-          title: "Study Lab",
+          title: "Win11 CalmMode",
           description:
-            "Навчальний простір для практики алгоритмів, ООП, Java/C# задач і невеликих web-експериментів.",
-          tech: ["Java", "C#", "Algorithms", "OOP"],
-          repo: "https://github.com/zagordenis1",
+            "PowerShell-проєкт для акуратного налаштування Windows 11: структура скриптів, документація, changelog і CI-перевірки.",
+          tech: ["PowerShell", "Windows", "Git", "GitHub Actions"],
+          repo: "https://github.com/ZaGOR-1/Win11-25H2-CalmMode",
           demo: null
         }
       ]
@@ -118,8 +120,8 @@ export const dictionaries = {
       title: "Відкритий до навчальних, командних і pet-проєктів.",
       subtitle:
         "Напишіть, якщо потрібен відповідальний junior developer для вебінтерфейсу, навчального проєкту або прототипу.",
-      email: "ran31276@gmail.com",
-      telegram: "@Denis_Zagor",
+      email: siteConfig.emailAddress,
+      telegram: siteConfig.telegramHandle,
       github: "ZaGOR-1"
     },
     footer: {
@@ -162,7 +164,7 @@ export const dictionaries = {
       codeCard: {
         label: "current_focus.ts",
         lines: [
-          "const focus = ['React', 'TypeScript', 'C#', 'Java'];",
+          "const focus = ['React', 'TypeScript', 'PHP', 'C#'];",
           "const goal = 'build useful, polished products';",
           "export const mindset = 'learn fast, ship clean';"
         ]
@@ -192,43 +194,43 @@ export const dictionaries = {
         },
         {
           title: "Backend & Core",
-          items: ["C#", "Java", "Node.js", "REST API", "SQL"]
+          items: ["PHP", "C#", "ASP.NET Core", "MySQL", "REST API"]
         },
         {
           title: "Tools",
-          items: ["Git", "GitHub", "VS Code", "Figma", "CI/CD"]
+          items: ["Git", "GitHub", "Docker", "VS Code", "CI/CD"]
         }
       ]
     },
     projects: {
       kicker: "Portfolio",
-      title: "Projects designed to scale",
+      title: "Selected practical projects",
       subtitle:
-        "All project cards are stored in one data file, so new cases can be added without changing UI components.",
+        "A few works that demonstrate frontend, code structure, GitHub Pages deployment, and automation practice.",
       items: [
         {
-          title: "Fishing Shop",
+          title: "Sitefishing",
           description:
-            "A multilingual landing page for a fishing tackle shop with catalog, responsive design, and fast CTAs.",
+            "A responsive landing page for a fishing tackle shop with catalog, language switching, filters, and fast CTAs.",
           tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-          repo: "test",
-          demo: "test"
+          repo: "https://github.com/ZaGOR-1/Sitefishing",
+          demo: "https://zagor-1.github.io/Sitefishing/"
         },
         {
-          title: "Portfolio Platform",
+          title: "Portfolio Website",
           description:
-            "A static portfolio website with localization, themes, SEO, and structured data for search engines.",
+            "A personal portfolio website with localization, themes, SEO, Open Graph, sitemap, robots.txt, and JSON-LD.",
           tech: ["React", "Next.js", "i18n", "SEO"],
-          repo: "test",
-          demo: "test"
+          repo: "https://github.com/ZaGOR-1/mysiteportfolio2",
+          demo: "https://zagor-1.github.io/mysiteportfolio2/"
         },
         {
-          title: "Study Lab",
+          title: "Win11 CalmMode",
           description:
-            "A learning space for practicing algorithms, OOP, Java/C# tasks, and small web experiments.",
-          tech: ["Java", "C#", "Algorithms", "OOP"],
-          repo: "test",
-          demo: "test"
+            "A PowerShell project for careful Windows 11 setup: script structure, documentation, changelog, and CI checks.",
+          tech: ["PowerShell", "Windows", "Git", "GitHub Actions"],
+          repo: "https://github.com/ZaGOR-1/Win11-25H2-CalmMode",
+          demo: null
         }
       ]
     },
@@ -237,8 +239,8 @@ export const dictionaries = {
       title: "Open to study, team, and pet projects.",
       subtitle:
         "Message me if you need a responsible junior developer for a web interface, student project, or prototype.",
-      email: "ran31276@gmail.com",
-      telegram: "@Denis_Zagor",
+      email: siteConfig.emailAddress,
+      telegram: siteConfig.telegramHandle,
       github: "ZaGOR-1"
     },
     footer: {
