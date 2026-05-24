@@ -25,6 +25,7 @@ export const navItems = [
   { id: "skills", key: "skills" },
   { id: "lab", key: "lab" },
   { id: "python-lab", key: "pythonLab" },
+  { id: "playground", key: "playground" },
   { id: "projects", key: "projects" },
   { id: "contacts", key: "contacts" }
 ] as const;

@@ -19,6 +19,7 @@ export const dictionaries = {
       skills: "Навички",
       lab: "JS Lab",
       pythonLab: "Python Lab",
+      playground: "UI Playground",
       projects: "Портфоліо",
       contacts: "Контакти"
     },
@@ -163,6 +164,34 @@ export const dictionaries = {
         error: "Error"
       }
     },
+    playground: {
+      kicker: "Живий інтерфейс",
+      title: "UI Playground: тикай, перетягуй і налаштовуй",
+      subtitle:
+        "Окремий інтерактивний блок, де відвідувач може рухати картки, змінювати акцент, радіуси, нахил, glow-ефект і одразу бачити, як змінюється мініінтерфейс портфоліо.",
+      panelTitle: "Interactive controls",
+      controlsTitle: "Налаштування UI",
+      accent: "Акцентний колір",
+      radius: "Радіус",
+      tilt: "Нахил",
+      glow: "Світіння",
+      density: "Відступи",
+      shuffle: "Shuffle cards",
+      addCard: "Add card",
+      removeCard: "Remove card",
+      reset: "Reset UI",
+      glassMode: "Glass mode",
+      glassHint: "Перемкни прозорий glassmorphism-стиль.",
+      previewTitle: "Live preview",
+      previewHint: "Картки можна перетягувати мишкою або пальцем.",
+      spin: "Spin",
+      copyCss: "Copy config",
+      copied: "Copied",
+      heroMockLabel: "interactive portfolio",
+      heroMockText:
+        "Цей блок показує, що сайт не просто статичний: тут є drag-and-drop, стани кнопок, live controls, анімації та динамічний UI.",
+      liveConfig: "Live UI config"
+    },
     projects: {
       kicker: "Портфоліо",
       title: "Обрані практичні проєкти",
@@ -218,6 +247,7 @@ export const dictionaries = {
       skills: "Skills",
       lab: "JS Lab",
       pythonLab: "Python Lab",
+      playground: "UI Playground",
       projects: "Portfolio",
       contacts: "Contacts"
     },
@@ -361,6 +391,34 @@ export const dictionaries = {
         success: "Success",
         error: "Error"
       }
+    },
+    playground: {
+      kicker: "Live interface",
+      title: "UI Playground: click, drag, and tune the layout",
+      subtitle:
+        "A separate interactive block where visitors can move cards, change the accent, radius, tilt, glow, and spacing, then instantly see how the mini portfolio interface reacts.",
+      panelTitle: "Interactive controls",
+      controlsTitle: "UI settings",
+      accent: "Accent color",
+      radius: "Radius",
+      tilt: "Tilt",
+      glow: "Glow",
+      density: "Spacing",
+      shuffle: "Shuffle cards",
+      addCard: "Add card",
+      removeCard: "Remove card",
+      reset: "Reset UI",
+      glassMode: "Glass mode",
+      glassHint: "Toggle the transparent glassmorphism style.",
+      previewTitle: "Live preview",
+      previewHint: "Cards are draggable with a mouse or touch.",
+      spin: "Spin",
+      copyCss: "Copy config",
+      copied: "Copied",
+      heroMockLabel: "interactive portfolio",
+      heroMockText:
+        "This block proves the site is not just static: it has drag-and-drop, button states, live controls, animations, and dynamic UI.",
+      liveConfig: "Live UI config"
     },
     projects: {
       kicker: "Portfolio",

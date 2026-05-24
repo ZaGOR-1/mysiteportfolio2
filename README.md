@@ -19,10 +19,11 @@ Live site: `https://zagor-1.github.io/mysiteportfolio2/`
 - Responsive polished landing portfolio design
 - Ukrainian and English language switcher
 - Dark/light theme switcher
-- Hero, About, Skills, interactive JS Lab, Python Lab, Portfolio, and Contacts sections
+- Hero, About, Skills, interactive JS Lab, Python Lab, UI Playground, Portfolio, and Contacts sections
 - Scroll reveal animations and polished hover states
 - Interactive browser-based JavaScript playground with run, auto-fix, delete-line, reset, and terminal output
 - Real Python playground powered by Pyodide in a Web Worker, with examples and terminal output
+- UI Playground with draggable cards, accent switcher, radius/tilt/glow/spacing sliders, glass mode, shuffle/spin actions, and copyable live config
 - SEO metadata, Open Graph, sitemap, robots.txt, and JSON-LD
 - Centralized site links in `src/data/site.ts`
 - Easy project updates through `src/i18n/dictionaries.ts`
@@ -78,7 +79,7 @@ Update this file first when changing accounts or domains.
 
 ## Add a new project
 
-Project cards, JS Lab texts, and Python Lab texts are localized in `src/i18n/dictionaries.ts`.
+Project cards, JS Lab texts, Python Lab texts, and UI Playground texts are localized in `src/i18n/dictionaries.ts`.
 
 1. Add the Ukrainian project to `dictionaries.uk.projects.items`.
 2. Add the English version to `dictionaries.en.projects.items`.
